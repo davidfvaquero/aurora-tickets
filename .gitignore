@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+output_business/
+sample_data/
+dist/
+build/
+tmp/

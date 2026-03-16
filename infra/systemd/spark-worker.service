@@ -1,0 +1,15 @@
+[Unit]
+Description=Apache Spark Worker
+After=network.target
+
+[Service]
+Type=forking
+User=ubuntu
+Environment=SPARK_HOME=/opt/spark
+EnvironmentFile=/etc/aurora/spark-worker.env
+ExecStart=/opt/spark/sbin/start-worker.sh ${SPARK_MASTER_URL}
+ExecStop=/opt/spark/sbin/stop-worker.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

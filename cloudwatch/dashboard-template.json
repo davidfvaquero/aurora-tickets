@@ -1,0 +1,56 @@
+{
+  "widgets": [
+    {
+      "type": "log",
+      "x": 0,
+      "y": 0,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "title": "Funnel Daily",
+        "region": "__AWS_REGION__",
+        "query": "SOURCE '/aurora/__STUDENT_ID__/clickstream' | fields @timestamp, dt, event_type, session_id | filter source = \"client\" | stats count_distinct(session_id) as sessions_total, count_distinct(if(event_type=\"purchase\", session_id, null)) as sessions_purchase by dt",
+        "view": "table"
+      }
+    },
+    {
+      "type": "log",
+      "x": 12,
+      "y": 0,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "title": "Top Events",
+        "region": "__AWS_REGION__",
+        "query": "SOURCE '/aurora/__STUDENT_ID__/clickstream' | fields dt, event_type, event_id, amount | filter source = \"client\" and ispresent(event_id) | stats count(if(event_type=\"view_event_detail\", 1, null)) as detail_views, count(if(event_type=\"purchase\", 1, null)) as purchases, sum(if(event_type=\"purchase\", amount, 0)) as revenue_total by dt, event_id | sort revenue_total desc",
+        "view": "table"
+      }
+    },
+    {
+      "type": "log",
+      "x": 0,
+      "y": 6,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "title": "Errors And Latency",
+        "region": "__AWS_REGION__",
+        "query": "SOURCE '/aurora/__STUDENT_ID__/clickstream' | fields dt, request_path, status_code, latency_ms | filter source = \"server\" | stats count(*) as requests, count(if(status_code >= 400, 1, null)) as errors, avg(latency_ms) as avg_latency_ms, pct(latency_ms, 95) as p95_latency_ms by dt, request_path",
+        "view": "table"
+      }
+    },
+    {
+      "type": "log",
+      "x": 12,
+      "y": 6,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "title": "Bot Suspicions",
+        "region": "__AWS_REGION__",
+        "query": "SOURCE '/aurora/__STUDENT_ID__/clickstream' | fields dt, ip, page, event_type, status_code | stats count(*) as requests, count(if(status_code >= 400, 1, null)) as errors, count(if(event_type = \"purchase\", 1, null)) as purchases by dt, ip, page | filter requests >= 80 or errors >= 8 or (requests >= 50 and purchases = 0)",
+        "view": "table"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "agent": {
+    "metrics_collection_interval": 60,
+    "logfile": "/opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log",
+    "run_as_user": "root"
+  },
+  "logs": {
+    "logs_collected": {
+      "files": {
+        "collect_list": [
+          {
+            "file_path": "/var/log/aurora/aurora_clickstream.jsonl",
+            "log_group_name": "/aurora/__STUDENT_ID__/clickstream",
+            "log_stream_name": "{instance_id}",
+            "timezone": "UTC",
+            "retention_in_days": 14
+          }
+        ]
+      }
+    },
+    "force_flush_interval": 5
+  }
+}

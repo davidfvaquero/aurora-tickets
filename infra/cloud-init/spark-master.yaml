@@ -1,0 +1,15 @@
+#cloud-config
+package_update: true
+write_files:
+  - path: /tmp/bootstrap-master.sh
+    permissions: "0755"
+    content: |
+      #!/usr/bin/env bash
+      set -euo pipefail
+      cd /home/ubuntu
+      curl -fsSL "__REPO_ARCHIVE_URL__" -o aurora_tickets.zip
+      unzip -o aurora_tickets.zip -d aurora_src
+      cd aurora_src/*
+      bash infra/scripts/install_spark_role.sh master
+runcmd:
+  - bash /tmp/bootstrap-master.sh

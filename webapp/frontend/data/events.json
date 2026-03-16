@@ -1,0 +1,970 @@
+{
+  "generated_at": "2026-03-16T18:10:56.910295+00:00",
+  "student_id": "demo_student",
+  "seed": 3696425136,
+  "events": [
+    {
+      "event_id": 56402001,
+      "name": "Talks: Tech Series",
+      "city": "Sevilla",
+      "category": "talks",
+      "event_date": "2026-05-30",
+      "base_price": 22.78,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402002,
+      "name": "Sports Live: Exhibición Indoor",
+      "city": "Bilbao",
+      "category": "sports",
+      "event_date": "2026/04/10",
+      "base_price": 54.61,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402003,
+      "name": "Festival Aurora: Día 3",
+      "city": "Murcia",
+      "category": "festival",
+      "event_date": "2026-04-12",
+      "base_price": 60.06,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402004,
+      "name": "Teatro: Sombras de Invierno",
+      "city": "Málaga",
+      "category": "theatre",
+      "event_date": "2026-06-12",
+      "base_price": 20.18,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402005,
+      "name": "Talks: Ciencia Series",
+      "city": "Bilbao",
+      "category": "talks",
+      "event_date": "2026-05-23",
+      "base_price": 18.57,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402006,
+      "name": "Teatro: Ecos de Invierno",
+      "city": "Málaga",
+      "category": "theatre",
+      "event_date": "2026-04-05",
+      "base_price": 31.48,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402007,
+      "name": "Comedy Night: Monólogos & Más",
+      "city": "Alicante",
+      "category": "comedy",
+      "event_date": "2026-04-24",
+      "base_price": 22.38,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402009,
+      "name": "Teatro: Sombras de Otoño",
+      "city": "Bilbao",
+      "category": "theatre",
+      "event_date": "2026-04-04",
+      "base_price": 18.37,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402010,
+      "name": "Festival Aurora: Día 3",
+      "city": "Murcia",
+      "category": "festival",
+      "event_date": "2026-04-08",
+      "base_price": 53.04,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402011,
+      "name": "Talks: Tech Series",
+      "city": "Bilbao",
+      "category": "talks",
+      "event_date": "2026-05-08",
+      "base_price": 23.21,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402012,
+      "name": "Teatro: Sombras de Invierno",
+      "city": "Barcelona",
+      "category": "theatre",
+      "event_date": "2026-07-04",
+      "base_price": 16.32,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402013,
+      "name": "Aurora Live: Noche Pop",
+      "city": "Bilbao",
+      "category": "music",
+      "event_date": "2026-05-16",
+      "base_price": 37.44,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402014,
+      "name": "Sports Live: Derbi Indoor",
+      "city": "Bilbao",
+      "category": "sports",
+      "event_date": "2026-04-05",
+      "base_price": 56.14,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402015,
+      "name": "Comedy Night: Monólogos & Más",
+      "city": "Zaragoza",
+      "category": "comedy",
+      "event_date": "2026-04-30",
+      "base_price": 24.69,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402016,
+      "name": "Talks: Ciencia Insights",
+      "city": "Zaragoza",
+      "category": "talks",
+      "event_date": "2026-05-13",
+      "base_price": 10.16,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402017,
+      "name": "Aurora Live: Noche Pop",
+      "city": "Murcia",
+      "category": "music",
+      "event_date": "2026-04-14",
+      "base_price": 32.61,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402019,
+      "name": "Talks: Ciencia Series",
+      "city": "Madrid",
+      "category": "talks",
+      "event_date": "2026-04-10",
+      "base_price": 15.9,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402020,
+      "name": "Teatro: Luces de Fuego",
+      "city": "Valencia",
+      "category": "theatre",
+      "event_date": "2026-05-17",
+      "base_price": -12.5,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402022,
+      "name": "Aurora Live: Sesión Indie",
+      "city": "Málaga",
+      "category": "music",
+      "event_date": "2026-05-01",
+      "base_price": 43.43,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402023,
+      "name": "Sports Live: Exhibición Arena",
+      "city": "Valladolid",
+      "category": "sports",
+      "event_date": "10-04-2026",
+      "base_price": 35.81,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402024,
+      "name": "Teatro: Sombras de Cristal",
+      "city": "Málaga",
+      "category": "theatre",
+      "event_date": "2026-04-10",
+      "base_price": 30.87,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402025,
+      "name": "Teatro: Ecos de Fuego",
+      "city": "Valladolid",
+      "category": "theatre",
+      "event_date": "2026-05-31",
+      "base_price": 31.26,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402026,
+      "name": "Teatro: Ecos de Invierno",
+      "city": "Sevilla",
+      "category": "theatre",
+      "event_date": "2026-03-31",
+      "base_price": 19.83,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402027,
+      "name": "Comedy Night: Monólogos & Más",
+      "city": "Zaragoza",
+      "category": "comedy",
+      "event_date": "2026-05-23",
+      "base_price": 23.26,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402028,
+      "name": "Comedy Night: Humor & Más",
+      "city": "Sevilla",
+      "category": "comedy",
+      "event_date": "2026-04-16",
+      "base_price": 19.43,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402029,
+      "name": "Talks: Cultura 2026",
+      "city": "Valencia",
+      "category": "talks",
+      "event_date": "2026-04-28",
+      "base_price": 17.82,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402030,
+      "name": "Sports Live: Final Indoor",
+      "city": "Alicante",
+      "category": "sports",
+      "event_date": "2026-06-30",
+      "base_price": 21.32,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402031,
+      "name": "Teatro: Luces de Invierno",
+      "city": "Valladolid",
+      "category": "theatre",
+      "event_date": "2026-04-03",
+      "base_price": 18.1,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402032,
+      "name": "Festival Aurora: Día 1",
+      "city": "Sevilla",
+      "category": "festival",
+      "event_date": "2026-05-18",
+      "base_price": 57.64,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402033,
+      "name": "Comedy Night: Humor & Más",
+      "city": "Barcelona",
+      "category": "comedy",
+      "event_date": "2026-04-10",
+      "base_price": 25.59,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402034,
+      "name": "Festival Aurora: Día 3",
+      "city": "Valencia",
+      "category": "festival",
+      "event_date": "2026-04-16",
+      "base_price": 39.54,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402035,
+      "name": "Teatro: Luces de Fuego",
+      "city": "Madrid",
+      "category": "theatre",
+      "event_date": "2026-07-06",
+      "base_price": 18.72,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402036,
+      "name": "Festival Aurora: Día 3",
+      "city": "Sevilla",
+      "category": "festival",
+      "event_date": "2026-06-24",
+      "base_price": 50.77,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402037,
+      "name": "Talks: Ciencia Insights",
+      "city": "Murcia",
+      "category": "talks",
+      "event_date": "2026-06-13",
+      "base_price": 12.86,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402038,
+      "name": "Teatro: Ecos de Fuego",
+      "city": "Valencia",
+      "category": "theatre",
+      "event_date": "2026-07-02",
+      "base_price": 23.65,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402040,
+      "name": "Sports Live: Final Arena",
+      "city": "Málaga",
+      "category": "sports",
+      "event_date": "2026-04-13",
+      "base_price": 25.47,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402041,
+      "name": "Sports Live: Final Open",
+      "city": "Alicante",
+      "category": "sports",
+      "event_date": "2026-06-27",
+      "base_price": 47.46,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402042,
+      "name": "Comedy Night: Humor & Más",
+      "city": "Sevilla",
+      "category": "comedy",
+      "event_date": "2026/04/10",
+      "base_price": 21.77,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402044,
+      "name": "Teatro: Sombras de Invierno",
+      "city": "Valladolid",
+      "category": "theatre",
+      "event_date": "2026-06-01",
+      "base_price": 22.73,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402045,
+      "name": "Aurora Live: Show Electrónica",
+      "city": "Valencia",
+      "category": "music",
+      "event_date": "2026-04-04",
+      "base_price": 41.77,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402046,
+      "name": "Aurora Live: Show Electrónica",
+      "city": "Valencia",
+      "category": "music",
+      "event_date": "2026-04-08",
+      "base_price": 37.7,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402047,
+      "name": "Comedy Night: Monólogos & Más",
+      "city": "Alicante",
+      "category": "comedy",
+      "event_date": "2026-06-15",
+      "base_price": 17.34,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402048,
+      "name": "Talks: Cultura 2026",
+      "city": "Valencia",
+      "category": "talks",
+      "event_date": "2026-04-01",
+      "base_price": 12.55,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402049,
+      "name": "Comedy Night: Humor & Más",
+      "city": "Alicante",
+      "category": "comedy",
+      "event_date": "2026-06-11",
+      "base_price": 27.33,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402050,
+      "name": "Aurora Live: Show Pop",
+      "city": "Valladolid",
+      "category": "music",
+      "event_date": "2026-04-22",
+      "base_price": 40.07,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402051,
+      "name": "Aurora Live: Noche Pop",
+      "city": "Zaragoza",
+      "category": "music",
+      "event_date": "2026-04-24",
+      "base_price": 19.71,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402052,
+      "name": "Festival Aurora: Día 2",
+      "city": "Málaga",
+      "category": "festival",
+      "event_date": "2026-05-15",
+      "base_price": 40.21,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402053,
+      "name": "Aurora Live: Noche Pop",
+      "city": "Barcelona",
+      "category": "music",
+      "event_date": "2026-06-29",
+      "base_price": 41.82,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402054,
+      "name": "Aurora Live: Noche Rock",
+      "city": "Madrid",
+      "category": "music",
+      "event_date": "2026-03-20",
+      "base_price": 25.74,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402055,
+      "name": "Festival Aurora: Día 2",
+      "city": "Bilbao",
+      "category": "festival",
+      "event_date": "2026/04/10",
+      "base_price": 72.22,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402056,
+      "name": "Comedy Night: Monólogos & Más",
+      "city": "Murcia",
+      "category": "comedy",
+      "event_date": "2026-05-26",
+      "base_price": 13.27,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402058,
+      "name": "Festival Aurora: Día 3",
+      "city": "Bilbao",
+      "category": "festival",
+      "event_date": "2026-06-06",
+      "base_price": 51.25,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402059,
+      "name": "Aurora Live: Noche Electrónica",
+      "city": "Valencia",
+      "category": "talks",
+      "event_date": "2026-05-18",
+      "base_price": 12.89,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402060,
+      "name": "Teatro: Sombras de Otoño",
+      "city": "Málaga",
+      "category": "theatre",
+      "event_date": "2026-06-26",
+      "base_price": 24.84,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402061,
+      "name": "Comedy Night: Humor & Más",
+      "city": "Murcia",
+      "category": "comedy",
+      "event_date": "2026-03-31",
+      "base_price": 19.54,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402062,
+      "name": "Talks: Ciencia Series",
+      "city": "Málaga",
+      "category": "talks",
+      "event_date": "2026-06-24",
+      "base_price": 13.6,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402063,
+      "name": "Teatro: Ecos de Cristal",
+      "city": "Valladolid",
+      "category": "theatre",
+      "event_date": "2026-06-23",
+      "base_price": 22.21,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402064,
+      "name": "Aurora Live: Noche Rock",
+      "city": "Málaga",
+      "category": "music",
+      "event_date": "2026-04-21",
+      "base_price": 18.6,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402065,
+      "name": "Aurora Live: Show Rock",
+      "city": "Valencia",
+      "category": "music",
+      "event_date": "2026-05-02",
+      "base_price": 34.91,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402066,
+      "name": "Festival Aurora: Día 1",
+      "city": "Valladolid",
+      "category": "festival",
+      "event_date": "2026-05-19",
+      "base_price": 65.28,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402067,
+      "name": "Aurora Live: Noche Rock",
+      "city": "Alicante",
+      "category": "music",
+      "event_date": "2026-04-05",
+      "base_price": 22.47,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402069,
+      "name": "Talks: Cultura Series",
+      "city": "Málaga",
+      "category": "talks",
+      "event_date": "2026-05-18",
+      "base_price": 14.33,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402070,
+      "name": "Aurora Live: Show Rock",
+      "city": "Zaragoza",
+      "category": "music",
+      "event_date": "2026-04-19",
+      "base_price": 23.34,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402071,
+      "name": "Aurora Live: Show Electrónica",
+      "city": "Madrid",
+      "category": "music",
+      "event_date": "2026-06-30",
+      "base_price": 21.77,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402072,
+      "name": "Comedy Night: Monólogos & Más",
+      "city": "Bilbao",
+      "category": "comedy",
+      "event_date": "2026-03-17",
+      "base_price": 27.16,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402073,
+      "name": "Teatro: Luces de Otoño",
+      "city": "Valladolid",
+      "category": "theatre",
+      "event_date": "2026-05-13",
+      "base_price": 31.85,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402074,
+      "name": "Aurora Live: Sesión Indie",
+      "city": "Alicante",
+      "category": "music",
+      "event_date": "2026-05-30",
+      "base_price": 25.67,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402075,
+      "name": "Aurora Live: Show Pop",
+      "city": "Málaga",
+      "category": "music",
+      "event_date": "2026-04-06",
+      "base_price": 43.78,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402076,
+      "name": "Comedy Night: Monólogos & Más",
+      "city": "Murcia",
+      "category": "comedy",
+      "event_date": "2026-06-28",
+      "base_price": 27.8,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402077,
+      "name": "Aurora Live: Show Rock",
+      "city": "Sevilla",
+      "category": "music",
+      "event_date": "2026-06-11",
+      "base_price": 21.69,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402078,
+      "name": "Talks: Cultura Insights",
+      "city": "Valladolid",
+      "category": "talks",
+      "event_date": "2026-04-21",
+      "base_price": 12.38,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402079,
+      "name": "Aurora Live: Show Rock",
+      "city": "Madrid",
+      "category": "music",
+      "event_date": "2026-04-30",
+      "base_price": 32.46,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402080,
+      "name": "Aurora Live: Sesión Electrónica",
+      "city": "Zaragoza",
+      "category": "music",
+      "event_date": "2026-05-27",
+      "base_price": 41.73,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402081,
+      "name": "Teatro: Sombras de Invierno",
+      "city": "Sevilla",
+      "category": "theatre",
+      "event_date": "2026-06-24",
+      "base_price": 31.11,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402082,
+      "name": "Teatro: Ecos de Otoño",
+      "city": "Valencia",
+      "category": "theatre",
+      "event_date": "2026-05-29",
+      "base_price": 30.62,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402083,
+      "name": "Talks: Tech Insights",
+      "city": "Murcia",
+      "category": "talks",
+      "event_date": "2026-04-02",
+      "base_price": 13.76,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402084,
+      "name": "Festival Aurora: Día 2",
+      "city": "Valladolid",
+      "category": "festival",
+      "event_date": "2026-04-28",
+      "base_price": 74.91,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402085,
+      "name": "Teatro: Ecos de Otoño",
+      "city": "Bilbao",
+      "category": "theatre",
+      "event_date": "2026-04-11",
+      "base_price": 26.47,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402087,
+      "name": "Teatro: Ecos de Invierno",
+      "city": "Madrid",
+      "category": "theatre",
+      "event_date": "2026-05-27",
+      "base_price": 20.03,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402089,
+      "name": "Talks: Ciencia Insights",
+      "city": "Bilbao",
+      "category": "talks",
+      "event_date": "2026-04-14",
+      "base_price": 13.57,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402090,
+      "name": "Comedy Night: Humor & Más",
+      "city": "Málaga",
+      "category": "comedy",
+      "event_date": "2026-05-02",
+      "base_price": 24.72,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402091,
+      "name": "Festival Aurora: Día 3",
+      "city": "Madrid",
+      "category": "festival",
+      "event_date": "2026-04-28",
+      "base_price": 82.54,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402092,
+      "name": "Aurora Live: Sesión Rock",
+      "city": "Murcia",
+      "category": "music",
+      "event_date": "2026-04-03",
+      "base_price": 18.15,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402093,
+      "name": "Sports Live: Final Indoor",
+      "city": "Alicante",
+      "category": "sports",
+      "event_date": "2026-06-13",
+      "base_price": 58.05,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402094,
+      "name": "Talks: Ciencia Series",
+      "city": "Málaga",
+      "category": "talks",
+      "event_date": "2026-03-18",
+      "base_price": 20.31,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402095,
+      "name": "Talks: Ciencia 2026",
+      "city": "Bilbao",
+      "category": "talks",
+      "event_date": "2026-06-10",
+      "base_price": 24.8,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402097,
+      "name": "Talks: Ciencia Insights",
+      "city": "Valladolid",
+      "category": "talks",
+      "event_date": "2026-04-13",
+      "base_price": 15.42,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402098,
+      "name": "Comedy Night: Monólogos & Más",
+      "city": "Zaragoza",
+      "category": "comedy",
+      "event_date": "2026-05-17",
+      "base_price": 20.49,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402099,
+      "name": "Comedy Night: Monólogos & Más",
+      "city": "Valladolid",
+      "category": "comedy",
+      "event_date": "2026-04-20",
+      "base_price": 18.41,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402100,
+      "name": "Comedy Night: Stand-up & Más",
+      "city": "Bilbao",
+      "category": "comedy",
+      "event_date": "2026-03-26",
+      "base_price": 24.41,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402101,
+      "name": "Sports Live: Final Open",
+      "city": "Murcia",
+      "category": "sports",
+      "event_date": "2026-03-22",
+      "base_price": 52.99,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402102,
+      "name": "Comedy Night: Stand-up & Más",
+      "city": "Valladolid",
+      "category": "comedy",
+      "event_date": "2026-05-12",
+      "base_price": 25.38,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402103,
+      "name": "Talks: Tech Series",
+      "city": "Málaga",
+      "category": "talks",
+      "event_date": "2026-05-09",
+      "base_price": 10.19,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402104,
+      "name": "Teatro: Luces de Fuego",
+      "city": "Murcia",
+      "category": "theatre",
+      "event_date": "2026-04-21",
+      "base_price": 16.44,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402105,
+      "name": "Talks: Cultura 2026",
+      "city": "Valencia",
+      "category": "talks",
+      "event_date": "2026-05-25",
+      "base_price": 11.82,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402106,
+      "name": "Teatro: Luces de Invierno",
+      "city": "Murcia",
+      "category": "theatre",
+      "event_date": "2026-04-18",
+      "base_price": 16.07,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402108,
+      "name": "Talks: Cultura 2026",
+      "city": "Valencia",
+      "category": "talks",
+      "event_date": "2026-06-26",
+      "base_price": 12.33,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402109,
+      "name": "Aurora Live: Noche Rock",
+      "city": "Madrid",
+      "category": "music",
+      "event_date": "2026-05-26",
+      "base_price": 35.59,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402110,
+      "name": "Sports Live: Derbi Arena",
+      "city": "Madrid",
+      "category": "sports",
+      "event_date": "2026-05-20",
+      "base_price": 21.1,
+      "description": "Evento al aire libre. Recomendado llegar con antelación."
+    },
+    {
+      "event_id": 56402111,
+      "name": "Sports Live: Exhibición Arena",
+      "city": "Sevilla",
+      "category": "sports",
+      "event_date": "2026-05-06",
+      "base_price": 53.66,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402112,
+      "name": "Sports Live: Exhibición Arena",
+      "city": "Bilbao",
+      "category": "sports",
+      "event_date": "2026-03-19",
+      "base_price": 43.44,
+      "description": "Duración aproximada 90 minutos. Sin descanso."
+    },
+    {
+      "event_id": 56402113,
+      "name": "Sports Live: Exhibición Indoor",
+      "city": "Sevilla",
+      "category": "sports",
+      "event_date": "2026-06-01",
+      "base_price": 26.0,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402114,
+      "name": "Talks: Tech Series",
+      "city": "Valladolid",
+      "category": "talks",
+      "event_date": "2026-04-22",
+      "base_price": 17.68,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    },
+    {
+      "event_id": 56402115,
+      "name": "Festival Aurora: Día 2",
+      "city": "Zaragoza",
+      "category": "festival",
+      "event_date": "2026-04-26",
+      "base_price": 38.69,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402117,
+      "name": "Talks: Ciencia Series",
+      "city": "Murcia",
+      "category": "talks",
+      "event_date": "2026-04-13",
+      "base_price": 14.02,
+      "description": "Aforo limitado. Apertura de puertas 20:00."
+    },
+    {
+      "event_id": 56402119,
+      "name": "Festival Aurora: Día 2",
+      "city": "Bilbao",
+      "category": "festival",
+      "event_date": "2026-03-31",
+      "base_price": 37.59,
+      "description": "Recomendado +16. Humor y sorpresas."
+    },
+    {
+      "event_id": 56402120,
+      "name": "Talks: Cultura Series",
+      "city": "Murcia",
+      "category": "talks",
+      "event_date": "2026-04-06",
+      "base_price": 10.55,
+      "description": "Incluye acceso general. Zonas premium disponibles."
+    }
+  ]
+}

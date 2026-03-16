@@ -1,0 +1,22 @@
+#cloud-config
+package_update: true
+write_files:
+  - path: /etc/aurora/submit.env
+    permissions: "0644"
+    content: |
+      STUDENT_ID=__STUDENT_ID__
+      AWS_REGION=__AWS_REGION__
+      SPARK_MASTER_URL=__SPARK_MASTER_URL__
+  - path: /tmp/bootstrap-submit.sh
+    permissions: "0755"
+    content: |
+      #!/usr/bin/env bash
+      set -euo pipefail
+      cd /home/ubuntu
+      curl -fsSL "__REPO_ARCHIVE_URL__" -o aurora_tickets.zip
+      unzip -o aurora_tickets.zip -d aurora_src
+      cd aurora_src/*
+      bash infra/scripts/install_spark_role.sh submit
+runcmd:
+  - mkdir -p /etc/aurora
+  - bash /tmp/bootstrap-submit.sh

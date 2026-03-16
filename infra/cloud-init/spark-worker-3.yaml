@@ -1,0 +1,20 @@
+#cloud-config
+package_update: true
+write_files:
+  - path: /etc/aurora/spark-worker.env
+    permissions: "0644"
+    content: |
+      SPARK_MASTER_URL=__SPARK_MASTER_URL__
+  - path: /tmp/bootstrap-worker.sh
+    permissions: "0755"
+    content: |
+      #!/usr/bin/env bash
+      set -euo pipefail
+      cd /home/ubuntu
+      curl -fsSL "__REPO_ARCHIVE_URL__" -o aurora_tickets.zip
+      unzip -o aurora_tickets.zip -d aurora_src
+      cd aurora_src/*
+      bash infra/scripts/install_spark_role.sh worker
+runcmd:
+  - mkdir -p /etc/aurora
+  - bash /tmp/bootstrap-worker.sh

@@ -1,0 +1,22 @@
+#cloud-config
+package_update: true
+write_files:
+  - path: /etc/aurora/aurora.env
+    permissions: "0644"
+    content: |
+      STUDENT_ID=__STUDENT_ID__
+      AURORA_LOG_PATH=/var/log/aurora/aurora_clickstream.jsonl
+  - path: /tmp/bootstrap-web.sh
+    permissions: "0755"
+    content: |
+      #!/usr/bin/env bash
+      set -euo pipefail
+      cd /home/ubuntu
+      curl -fsSL "__REPO_ARCHIVE_URL__" -o aurora_tickets.zip
+      unzip -o aurora_tickets.zip -d aurora_src
+      cd aurora_src/*
+      bash webapp/deploy/install_web_stack.sh
+      bash infra/scripts/install_cloudwatch_agent.sh "__STUDENT_ID__" "__AWS_REGION__"
+runcmd:
+  - mkdir -p /etc/aurora
+  - bash /tmp/bootstrap-web.sh
