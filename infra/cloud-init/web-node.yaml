@@ -11,10 +11,12 @@ write_files:
     content: |
       #!/usr/bin/env bash
       set -euo pipefail
+      apt-get update -y
+      apt-get install -y curl unzip
       cd /home/ubuntu
       curl -fsSL "__REPO_ARCHIVE_URL__" -o aurora_tickets.zip
       unzip -o aurora_tickets.zip -d aurora_src
-      cd aurora_src/*
+      cd /home/ubuntu/aurora_src
       bash webapp/deploy/install_web_stack.sh
       bash infra/scripts/install_cloudwatch_agent.sh "__STUDENT_ID__" "__AWS_REGION__"
 runcmd:

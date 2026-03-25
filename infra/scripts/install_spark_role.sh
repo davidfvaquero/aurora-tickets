@@ -2,12 +2,21 @@
 set -euo pipefail
 
 ROLE="${1:?role required}"
-SPARK_VERSION="${SPARK_VERSION:-3.5.2}"
+SPARK_VERSION="${SPARK_VERSION:-3.5.1}"
 HADOOP_VERSION="${HADOOP_VERSION:-3}"
 INSTALL_DIR="/opt/spark"
 
 sudo apt-get update -y
-sudo apt-get install -y openjdk-17-jdk python3 python3-pip unzip curl awscli
+sudo apt-get install -y openjdk-11-jdk python3 python3-pip unzip curl
+
+# Install AWS CLI v2 from the official zip because Ubuntu 24.04 images in Learner Lab
+# may not provide a working awscli apt package.
+if ! command -v aws >/dev/null 2>&1; then
+  curl -fsSL "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o /tmp/awscliv2.zip
+  rm -rf /tmp/aws
+  unzip -oq /tmp/awscliv2.zip -d /tmp
+  sudo /tmp/aws/install --update
+fi
 
 if [ ! -d "$INSTALL_DIR" ]; then
   curl -fsSL "https://archive.apache.org/dist/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION}.tgz" -o /tmp/spark.tgz

@@ -1,7 +1,7 @@
 // webapp/frontend/js/config.js
 
 // ⚠️ CAMBIAR SOLO ESTO:
-export const STUDENT_ID = "change_me"; // Use the same value across CloudWatch, S3, dashboard, and backend env.
+export const STUDENT_ID = "dfernandezv02"; // Use the same value across CloudWatch, S3, dashboard, and backend env.
 
 // Endpoint del backend FastAPI (si el front y backend van en el mismo host, usa relativo)
 export const TRACK_ENDPOINT = "/track";
