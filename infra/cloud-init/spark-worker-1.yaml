@@ -16,6 +16,7 @@ write_files:
       curl -fsSL "__REPO_ARCHIVE_URL__" -o aurora_tickets.zip
       unzip -o aurora_tickets.zip -d aurora_src
       cd /home/ubuntu/aurora_src
+      if [ -d aurora-tickets-main ]; then cd aurora-tickets-main; fi
       bash infra/scripts/install_spark_role.sh worker
 runcmd:
   - mkdir -p /etc/aurora

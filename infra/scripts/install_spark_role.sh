@@ -47,7 +47,7 @@ case "$ROLE" in
     sudo systemctl restart spark-worker
     ;;
   submit)
-    pip3 install pyspark boto3 mysql-connector-python
+    python3 -m pip install --break-system-packages pyspark boto3 mysql-connector-python
     ;;
   *)
     echo "Unsupported role: $ROLE" >&2

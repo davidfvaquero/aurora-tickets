@@ -17,6 +17,7 @@ write_files:
       curl -fsSL "__REPO_ARCHIVE_URL__" -o aurora_tickets.zip
       unzip -o aurora_tickets.zip -d aurora_src
       cd /home/ubuntu/aurora_src
+      if [ -d aurora-tickets-main ]; then cd aurora-tickets-main; fi
       bash webapp/deploy/install_web_stack.sh
       bash infra/scripts/install_cloudwatch_agent.sh "__STUDENT_ID__" "__AWS_REGION__"
 runcmd:
