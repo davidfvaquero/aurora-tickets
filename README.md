@@ -67,15 +67,3 @@ python simulators/traffic_driver.py \
 7. Apply `sql/schema.sql` and verify the final MySQL tables.
 8. Import the CloudWatch query files and `cloudwatch/dashboard-template.json`.
 
-## Deliverable alignment
-
-- 4 saved Logs Insights queries: included in `cloudwatch/queries/`
-- 1 CloudWatch dashboard template: included
-- 2 Spark jobs: included
-- 3 final MySQL metrics tables: included
-- CRISP-DM documentation structure: included
-- Evidence folder: included
-
-## Remaining manual work
-
-You still need to replace placeholders such as `__STUDENT_ID__`, configure actual AWS resource names, run the deployment in AWS Learner Lab, and capture the evidence required for the final submission.
